@@ -86,7 +86,34 @@ Go Through my S3Website_with_Chatbot.html and change the <script> in last with y
 
 ```
 
-- Save and deploy your website. (Optional: Use AWS S3 and CloudFront for hosting and global delivery[2].)
+- Save and deploy your website.
+
+Notes: Running the Project on a Local Server
+To test your S3Website.html (or any HTML file with embedded Dialogflow chatbot) on a local server instead of opening the file directly:
+
+Why?
+Modern browsers block some features (like iframes, scripts, or APIs) 
+when opening files via file://. Running a local server simulates a real web environment.
+
+How to Run Locally:
+
+Using Python (Quick & Easy)
+```For Python 3.x:```
+
+Open your terminal
+
+Navigate to the directory containing your S3Website.html file:
+
+bash
+```cd path/to/your/project```
+Start a local server:
+
+bash
+```python -m http.server 8000```
+Open your browser and go to:
+
+text
+```http://localhost:8000/file_name.html```
 
 ## 🗂️ Example User Questions
 
