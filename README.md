@@ -75,6 +75,7 @@ Create and deploy a Dialogflow chatbot that enhances customer experience by answ
 - Open your website’s HTML (e.g., `S3Website.html`)[1].
 - Paste the iframe code where you want the chatbot to appear, typically before the closing <body>tag.
 
+Go Through my S3Website_with_Chatbot.html and change the <script> in last with your iframe code.
 ```<!-- Example integration -->
 <iframe
   allow="microphone;"
